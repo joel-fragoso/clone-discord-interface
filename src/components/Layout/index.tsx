@@ -4,10 +4,12 @@ import {
   Grid,
 } from './styles';
 
+import ServerList from '../ServerList';
+
 const Layout: FC = () => {
   return (
     <Grid>
-      <h1>Layout</h1>
+      <ServerList />
     </Grid>
   );
 };
