@@ -6,12 +6,14 @@ import {
 
 import ServerList from '../ServerList';
 import ServerName from '../ServerName';
+import ChannelInfo from '../ChannelInfo';
 
 const Layout: FC = () => {
   return (
     <Grid>
       <ServerList />
       <ServerName />
+      <ChannelInfo />
     </Grid>
   );
 };
